@@ -1,0 +1,58 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos del entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de configuración específicos del IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de datos grandes (descomenta si no quieres subir datos a Git)
+# data/*.csv
+# data/*.xlsx
+# data/*.json
+
+# Archivos de salida generados
+outputs/graficos/*.png
+outputs/graficos/*.jpg
+outputs/graficos/*.pdf
+outputs/reportes/*.html
+outputs/reportes/*.pdf
+
+# Archivos de configuración local
+config.ini
+.env
